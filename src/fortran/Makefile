@@ -7,7 +7,7 @@
 
 # Compiler and flags
 FC = mpif90
-FFLAGS = -O3 -march=native -ffast-math
+FFLAGS = -O2 -march=core-avx2 
 # For debugging, use instead:
 # FFLAGS = -O0 -g -Wall -Wextra -fcheck=all -fbacktrace
 
